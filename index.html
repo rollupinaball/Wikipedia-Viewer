@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="../lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <title>Wikipedia Viewer</title>
   </head>
   <body>
-    <!-- Title -->
-    <!-- Search box -->
-    <!-- Search button -->
-    <!-- Results -->
-    <!-- Footer -->
+    <div class="container-fluid">
+      <!-- Title -->
+      <h1 class="text-center">Wikipedia Viewer</h1>
 
-    <script type="text/javascript" src="..lib/js/jquery-3.2.1.min"></script>
+      <!-- Random button -->
+      <div class="text-center">
+        <button id="btnRandom" class="btn btn-secondary">Random</button>
+      </div>
+
+      <div class="text-center">
+        <!-- Search box -->
+        <input id="searchBox" type="text" placeholder="Search.."/>
+        <!-- Search button -->
+        <button id="btnSearch" class="btn btn-primary">Search</button>
+      </div>
+
+      <!-- Results -->
+      <div id="searchResults">
+      </div>
+      <!-- Footer -->
+      <footer class="text-center">rollupinaball 2017</footer>
+    </div>
+
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="scripts.js"></script>
   </body>
 </html>
